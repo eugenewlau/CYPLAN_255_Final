@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5f5c68a7063f4cd9a4ffd1b8b32fc013 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5f5c68a7063f4cd9a4ffd1b8b32fc013" ></div>
+        
+</body>
+<script>    
+    
+            var map_5f5c68a7063f4cd9a4ffd1b8b32fc013 = L.map(
+                "map_5f5c68a7063f4cd9a4ffd1b8b32fc013",
+                {
+                    center: [40.23500772370277, -98.49175386032067],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_519cacf48bac49769a146acde061e3ab = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+            var marker_4c87e7441046475f8b996a1a5f2d6586 = L.marker(
+                [32.75116576, -97.08224925],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_c7524bf6afb441e2bf04ccc9e67557b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8955878d9fea4cc29360cacf49eb7a84 = $(`<div id="html_8955878d9fea4cc29360cacf49eb7a84" style="width: 100.0%; height: 100.0%;">Globe Life Field</div>`)[0];
+            popup_c7524bf6afb441e2bf04ccc9e67557b1.setContent(html_8955878d9fea4cc29360cacf49eb7a84);
+        
+
+        marker_4c87e7441046475f8b996a1a5f2d6586.bindPopup(popup_c7524bf6afb441e2bf04ccc9e67557b1)
+        ;
+
+        
+    
+    
+            var marker_a7e8a8a056254fd3945f6f4b5c287177 = L.marker(
+                [33.89104677, -84.46824595],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_7845d7b8edfb44b898de97499916ff74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f70f2fbb526d40208286293ace3c6248 = $(`<div id="html_f70f2fbb526d40208286293ace3c6248" style="width: 100.0%; height: 100.0%;">Truist Park</div>`)[0];
+            popup_7845d7b8edfb44b898de97499916ff74.setContent(html_f70f2fbb526d40208286293ace3c6248);
+        
+
+        marker_a7e8a8a056254fd3945f6f4b5c287177.bindPopup(popup_7845d7b8edfb44b898de97499916ff74)
+        ;
+
+        
+    
+    
+            var marker_ceeb1a36897d45208f3f7c3678a3cb7d = L.marker(
+                [25.77838055, -80.22011479],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_eb18a2b7b7bb43849414dfcc791615ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1feabba2c084e7798b660a1854f0376 = $(`<div id="html_a1feabba2c084e7798b660a1854f0376" style="width: 100.0%; height: 100.0%;">loanDepot park</div>`)[0];
+            popup_eb18a2b7b7bb43849414dfcc791615ba.setContent(html_a1feabba2c084e7798b660a1854f0376);
+        
+
+        marker_ceeb1a36897d45208f3f7c3678a3cb7d.bindPopup(popup_eb18a2b7b7bb43849414dfcc791615ba)
+        ;
+
+        
+    
+    
+            var marker_2779fca272fa4c398d757702f1041bbe = L.marker(
+                [44.98181887, -93.27758629],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_23fd09f15b214851b33a6ae491c0801f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e94c951b6c3f45ba863d6860132b968e = $(`<div id="html_e94c951b6c3f45ba863d6860132b968e" style="width: 100.0%; height: 100.0%;">Target Field</div>`)[0];
+            popup_23fd09f15b214851b33a6ae491c0801f.setContent(html_e94c951b6c3f45ba863d6860132b968e);
+        
+
+        marker_2779fca272fa4c398d757702f1041bbe.bindPopup(popup_23fd09f15b214851b33a6ae491c0801f)
+        ;
+
+        
+    
+    
+            var marker_1f6108800c47475199c62a6317a38a2f = L.marker(
+                [40.75681715, -73.846251],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_903266bc88d04a9297dd720e80b12a0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6c7f098b71c48e899b8845558113699 = $(`<div id="html_e6c7f098b71c48e899b8845558113699" style="width: 100.0%; height: 100.0%;">Citi Field</div>`)[0];
+            popup_903266bc88d04a9297dd720e80b12a0c.setContent(html_e6c7f098b71c48e899b8845558113699);
+        
+
+        marker_1f6108800c47475199c62a6317a38a2f.bindPopup(popup_903266bc88d04a9297dd720e80b12a0c)
+        ;
+
+        
+    
+    
+            var marker_dede58a6d7974de690a3c7506891267e = L.marker(
+                [40.82916069, -73.92651467],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_1b3a9c803ea2422f8248b714cc92e796 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76cd2b9745cb43168126c35088d2d5c1 = $(`<div id="html_76cd2b9745cb43168126c35088d2d5c1" style="width: 100.0%; height: 100.0%;">Yankee Stadium</div>`)[0];
+            popup_1b3a9c803ea2422f8248b714cc92e796.setContent(html_76cd2b9745cb43168126c35088d2d5c1);
+        
+
+        marker_dede58a6d7974de690a3c7506891267e.bindPopup(popup_1b3a9c803ea2422f8248b714cc92e796)
+        ;
+
+        
+    
+    
+            var marker_716c278ad0ba41d498392ca99f3c4cbb = L.marker(
+                [38.87290995, -77.0075831],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_6de7ea8aab0b4e57859b90300bf85a04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8261b6035ceb4336bffee4188cf125d9 = $(`<div id="html_8261b6035ceb4336bffee4188cf125d9" style="width: 100.0%; height: 100.0%;">Nationals Park</div>`)[0];
+            popup_6de7ea8aab0b4e57859b90300bf85a04.setContent(html_8261b6035ceb4336bffee4188cf125d9);
+        
+
+        marker_716c278ad0ba41d498392ca99f3c4cbb.bindPopup(popup_6de7ea8aab0b4e57859b90300bf85a04)
+        ;
+
+        
+    
+    
+            var marker_74e81ffd016c49a499352f687f42b591 = L.marker(
+                [38.62257687, -90.1933037],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_dca4f0c9d8d349b094dd40b6850602bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a65f2b8159e483b923f2dcfb1033893 = $(`<div id="html_9a65f2b8159e483b923f2dcfb1033893" style="width: 100.0%; height: 100.0%;">Busch Stadium</div>`)[0];
+            popup_dca4f0c9d8d349b094dd40b6850602bc.setContent(html_9a65f2b8159e483b923f2dcfb1033893);
+        
+
+        marker_74e81ffd016c49a499352f687f42b591.bindPopup(popup_dca4f0c9d8d349b094dd40b6850602bc)
+        ;
+
+        
+    
+    
+            var marker_6d0d890c0e5b49998ef619b5f334964e = L.marker(
+                [39.90556337, -75.16580856],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_00e872917a4743fc86f0a3d12a9b9a30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf9a712bfcf643808ce88882b05e7c8c = $(`<div id="html_cf9a712bfcf643808ce88882b05e7c8c" style="width: 100.0%; height: 100.0%;">Citizens Bank Park</div>`)[0];
+            popup_00e872917a4743fc86f0a3d12a9b9a30.setContent(html_cf9a712bfcf643808ce88882b05e7c8c);
+        
+
+        marker_6d0d890c0e5b49998ef619b5f334964e.bindPopup(popup_00e872917a4743fc86f0a3d12a9b9a30)
+        ;
+
+        
+    
+    
+            var marker_c2fbd6ed4d5341388ba0cf331b99f6a1 = L.marker(
+                [32.70733247, -117.1577106],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_8668ddac80ba40a8bf55cc74cf732528 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a5b8107b52a42b7bef2a58573785068 = $(`<div id="html_8a5b8107b52a42b7bef2a58573785068" style="width: 100.0%; height: 100.0%;">Petco Park</div>`)[0];
+            popup_8668ddac80ba40a8bf55cc74cf732528.setContent(html_8a5b8107b52a42b7bef2a58573785068);
+        
+
+        marker_c2fbd6ed4d5341388ba0cf331b99f6a1.bindPopup(popup_8668ddac80ba40a8bf55cc74cf732528)
+        ;
+
+        
+    
+    
+            var marker_99eb5bff1ddd4103adba6a52193b24aa = L.marker(
+                [39.0972309, -84.50709286],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_40d53314740f487c80b58c2dacc6c559 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_318c6a56105344a28ff28f31f39461bb = $(`<div id="html_318c6a56105344a28ff28f31f39461bb" style="width: 100.0%; height: 100.0%;">Great American Ball Park</div>`)[0];
+            popup_40d53314740f487c80b58c2dacc6c559.setContent(html_318c6a56105344a28ff28f31f39461bb);
+        
+
+        marker_99eb5bff1ddd4103adba6a52193b24aa.bindPopup(popup_40d53314740f487c80b58c2dacc6c559)
+        ;
+
+        
+    
+    
+            var marker_b27ad74444f845df896c4f3a6eb26cd4 = L.marker(
+                [43.02790699, -87.97121477],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_b0c2c24ab05f485c8f702b353334ac2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6b38229b2604edf921717e707339fe1 = $(`<div id="html_f6b38229b2604edf921717e707339fe1" style="width: 100.0%; height: 100.0%;">American Family Field</div>`)[0];
+            popup_b0c2c24ab05f485c8f702b353334ac2e.setContent(html_f6b38229b2604edf921717e707339fe1);
+        
+
+        marker_b27ad74444f845df896c4f3a6eb26cd4.bindPopup(popup_b0c2c24ab05f485c8f702b353334ac2e)
+        ;
+
+        
+    
+    
+            var marker_e0c841d035934ee9b0389ba1a797ef6e = L.marker(
+                [40.44682667, -80.00530843],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_89fa06bbee7d4ba8864dbe4931901a06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc768e574fa14e199a2e907ac480a883 = $(`<div id="html_dc768e574fa14e199a2e907ac480a883" style="width: 100.0%; height: 100.0%;">PNC Park</div>`)[0];
+            popup_89fa06bbee7d4ba8864dbe4931901a06.setContent(html_dc768e574fa14e199a2e907ac480a883);
+        
+
+        marker_e0c841d035934ee9b0389ba1a797ef6e.bindPopup(popup_89fa06bbee7d4ba8864dbe4931901a06)
+        ;
+
+        
+    
+    
+            var marker_89033551d76d4ca4b16843def3f5d55d = L.marker(
+                [42.33895873, -83.04921708],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_1bf8982fd16d4dfb8ded696f93ea86cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fae0bad74fbb4476bbae5c42c31bbd37 = $(`<div id="html_fae0bad74fbb4476bbae5c42c31bbd37" style="width: 100.0%; height: 100.0%;">Comerica Park</div>`)[0];
+            popup_1bf8982fd16d4dfb8ded696f93ea86cb.setContent(html_fae0bad74fbb4476bbae5c42c31bbd37);
+        
+
+        marker_89033551d76d4ca4b16843def3f5d55d.bindPopup(popup_1bf8982fd16d4dfb8ded696f93ea86cb)
+        ;
+
+        
+    
+    
+            var marker_160f869f456140a8b0ea3375e84dd9a5 = L.marker(
+                [29.75744635, -95.35580398],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_af6872cb50514c2994777d4c1351e4ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e84f05a750645449b1407f228d59837 = $(`<div id="html_6e84f05a750645449b1407f228d59837" style="width: 100.0%; height: 100.0%;">Minute Maid Park</div>`)[0];
+            popup_af6872cb50514c2994777d4c1351e4ca.setContent(html_6e84f05a750645449b1407f228d59837);
+        
+
+        marker_160f869f456140a8b0ea3375e84dd9a5.bindPopup(popup_af6872cb50514c2994777d4c1351e4ca)
+        ;
+
+        
+    
+    
+            var marker_5d7bdf476e884c1bab9ea2ff66908176 = L.marker(
+                [37.77849332, -122.3899994],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_db535854ed9c45808bb75ae980471a24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4764a11acf404d7a9c6c818fc71f0006 = $(`<div id="html_4764a11acf404d7a9c6c818fc71f0006" style="width: 100.0%; height: 100.0%;">Oracle Park</div>`)[0];
+            popup_db535854ed9c45808bb75ae980471a24.setContent(html_4764a11acf404d7a9c6c818fc71f0006);
+        
+
+        marker_5d7bdf476e884c1bab9ea2ff66908176.bindPopup(popup_db535854ed9c45808bb75ae980471a24)
+        ;
+
+        
+    
+    
+            var marker_ba308b98d4f2450c800c4f3182a6bf65 = L.marker(
+                [47.59186566, -122.3316609],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_b10ec557e80244b997d6fd7a8b0ea3de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d569fb1951a488298058f4324485cfe = $(`<div id="html_9d569fb1951a488298058f4324485cfe" style="width: 100.0%; height: 100.0%;">T-Mobile Park</div>`)[0];
+            popup_b10ec557e80244b997d6fd7a8b0ea3de.setContent(html_9d569fb1951a488298058f4324485cfe);
+        
+
+        marker_ba308b98d4f2450c800c4f3182a6bf65.bindPopup(popup_b10ec557e80244b997d6fd7a8b0ea3de)
+        ;
+
+        
+    
+    
+            var marker_fa2c2a68150a412c9234867d7ebf8e45 = L.marker(
+                [33.44557609, -112.0670524],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_d0f6b21d828b4153bd83af2119a46acf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26ed0a678be146e39f923ce62c5bc76c = $(`<div id="html_26ed0a678be146e39f923ce62c5bc76c" style="width: 100.0%; height: 100.0%;">Chase Field</div>`)[0];
+            popup_d0f6b21d828b4153bd83af2119a46acf.setContent(html_26ed0a678be146e39f923ce62c5bc76c);
+        
+
+        marker_fa2c2a68150a412c9234867d7ebf8e45.bindPopup(popup_d0f6b21d828b4153bd83af2119a46acf)
+        ;
+
+        
+    
+    
+            var marker_6e192a5fa1864d7dbf3efa3eb01cc0c9 = L.marker(
+                [39.75647614, -104.9946609],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_5f28a37f29f5425a8252bf27c8935502 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bfeb9a9815a47758ffc70593e54c718 = $(`<div id="html_6bfeb9a9815a47758ffc70593e54c718" style="width: 100.0%; height: 100.0%;">Coors Field</div>`)[0];
+            popup_5f28a37f29f5425a8252bf27c8935502.setContent(html_6bfeb9a9815a47758ffc70593e54c718);
+        
+
+        marker_6e192a5fa1864d7dbf3efa3eb01cc0c9.bindPopup(popup_5f28a37f29f5425a8252bf27c8935502)
+        ;
+
+        
+    
+    
+            var marker_aa8f986fa746457388975f383fdba82a = L.marker(
+                [41.49609044, -81.68551858],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_768fb61397594d39ae0a6222116bd255 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bce3039a36ac403aa12948a26460ede6 = $(`<div id="html_bce3039a36ac403aa12948a26460ede6" style="width: 100.0%; height: 100.0%;">Progressive Field</div>`)[0];
+            popup_768fb61397594d39ae0a6222116bd255.setContent(html_bce3039a36ac403aa12948a26460ede6);
+        
+
+        marker_aa8f986fa746457388975f383fdba82a.bindPopup(popup_768fb61397594d39ae0a6222116bd255)
+        ;
+
+        
+    
+    
+            var marker_99df57644c824ef69fee27c1db07ee4f = L.marker(
+                [39.28436746, -76.62192496],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_4494fc3d0087477098cffe7277bdf454 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd57227718f64879abded7978f249b0a = $(`<div id="html_dd57227718f64879abded7978f249b0a" style="width: 100.0%; height: 100.0%;">Oriole Park at Camden Yards</div>`)[0];
+            popup_4494fc3d0087477098cffe7277bdf454.setContent(html_dd57227718f64879abded7978f249b0a);
+        
+
+        marker_99df57644c824ef69fee27c1db07ee4f.bindPopup(popup_4494fc3d0087477098cffe7277bdf454)
+        ;
+
+        
+    
+    
+            var marker_f1e93bedf1444d86ab9d864e71697da5 = L.marker(
+                [41.83033377, -87.63435302],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_c34f4d44d121446b9406126c3a728101 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04b82cc863654988a33a4c390669f27d = $(`<div id="html_04b82cc863654988a33a4c390669f27d" style="width: 100.0%; height: 100.0%;">Guaranteed Rate Field</div>`)[0];
+            popup_c34f4d44d121446b9406126c3a728101.setContent(html_04b82cc863654988a33a4c390669f27d);
+        
+
+        marker_f1e93bedf1444d86ab9d864e71697da5.bindPopup(popup_c34f4d44d121446b9406126c3a728101)
+        ;
+
+        
+    
+    
+            var marker_c2f097a043ba4b62808fdda73249708c = L.marker(
+                [27.7679208, -82.65254452],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_72e30996d9404fb1948a929eff0eae16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b5d09aa2b71497299115a287f4cecb8 = $(`<div id="html_1b5d09aa2b71497299115a287f4cecb8" style="width: 100.0%; height: 100.0%;">Tropicana Field</div>`)[0];
+            popup_72e30996d9404fb1948a929eff0eae16.setContent(html_1b5d09aa2b71497299115a287f4cecb8);
+        
+
+        marker_c2f097a043ba4b62808fdda73249708c.bindPopup(popup_72e30996d9404fb1948a929eff0eae16)
+        ;
+
+        
+    
+    
+            var marker_bb482acd4a0a4adda9e05a7c876ad9cc = L.marker(
+                [43.64164002, -79.38898277],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_62aa58a6fe5e4390a41869d859649d09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dd927aa0a554ad9860300397f69739c = $(`<div id="html_9dd927aa0a554ad9860300397f69739c" style="width: 100.0%; height: 100.0%;">Rogers Centre</div>`)[0];
+            popup_62aa58a6fe5e4390a41869d859649d09.setContent(html_9dd927aa0a554ad9860300397f69739c);
+        
+
+        marker_bb482acd4a0a4adda9e05a7c876ad9cc.bindPopup(popup_62aa58a6fe5e4390a41869d859649d09)
+        ;
+
+        
+    
+    
+            var marker_9ccd4c112aaa4d04b0c343f39ce779d3 = L.marker(
+                [39.05164688, -94.48075408],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_f48af6b49dd546c482b30d78bf711cae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5b5bc7a72914724b6f56653aad78d04 = $(`<div id="html_a5b5bc7a72914724b6f56653aad78d04" style="width: 100.0%; height: 100.0%;">Kauffman Stadium</div>`)[0];
+            popup_f48af6b49dd546c482b30d78bf711cae.setContent(html_a5b5bc7a72914724b6f56653aad78d04);
+        
+
+        marker_9ccd4c112aaa4d04b0c343f39ce779d3.bindPopup(popup_f48af6b49dd546c482b30d78bf711cae)
+        ;
+
+        
+    
+    
+            var marker_20e542c05ba342c6a17868b4ee0318fb = L.marker(
+                [33.79996919, -117.8824746],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_5d2eec34af2f48f7929298a10f5cec4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_291b90ed1787455693a76fcbdd6dffb7 = $(`<div id="html_291b90ed1787455693a76fcbdd6dffb7" style="width: 100.0%; height: 100.0%;">Angel Stadium</div>`)[0];
+            popup_5d2eec34af2f48f7929298a10f5cec4a.setContent(html_291b90ed1787455693a76fcbdd6dffb7);
+        
+
+        marker_20e542c05ba342c6a17868b4ee0318fb.bindPopup(popup_5d2eec34af2f48f7929298a10f5cec4a)
+        ;
+
+        
+    
+    
+            var marker_f5a2fdb6c47245f6bed154e21562ee44 = L.marker(
+                [37.75165396, -122.2013397],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_5814fcc6fdf345c18ba58f56d4820010 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4e6c50346d942eb82cfc39ca97da2ef = $(`<div id="html_f4e6c50346d942eb82cfc39ca97da2ef" style="width: 100.0%; height: 100.0%;">RingCentral Coliseum</div>`)[0];
+            popup_5814fcc6fdf345c18ba58f56d4820010.setContent(html_f4e6c50346d942eb82cfc39ca97da2ef);
+        
+
+        marker_f5a2fdb6c47245f6bed154e21562ee44.bindPopup(popup_5814fcc6fdf345c18ba58f56d4820010)
+        ;
+
+        
+    
+    
+            var marker_141ff5872ee34d169ad633f5878b53f6 = L.marker(
+                [34.07404649, -118.2403338],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_af19d4b7d8d2476ebc2bd6dc7a351490 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e65aa4277bc4facb2ad677524d3bf8d = $(`<div id="html_1e65aa4277bc4facb2ad677524d3bf8d" style="width: 100.0%; height: 100.0%;">Dodger Stadium</div>`)[0];
+            popup_af19d4b7d8d2476ebc2bd6dc7a351490.setContent(html_1e65aa4277bc4facb2ad677524d3bf8d);
+        
+
+        marker_141ff5872ee34d169ad633f5878b53f6.bindPopup(popup_af19d4b7d8d2476ebc2bd6dc7a351490)
+        ;
+
+        
+    
+    
+            var marker_a0125a65c94d4beabc3ec1eca88a7b63 = L.marker(
+                [41.94822741, -87.65548324],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_954fde74241d4c799fc1fba9d267c4de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c72b59cb14af43e4924aab5da738faa4 = $(`<div id="html_c72b59cb14af43e4924aab5da738faa4" style="width: 100.0%; height: 100.0%;">Wrigley Field</div>`)[0];
+            popup_954fde74241d4c799fc1fba9d267c4de.setContent(html_c72b59cb14af43e4924aab5da738faa4);
+        
+
+        marker_a0125a65c94d4beabc3ec1eca88a7b63.bindPopup(popup_954fde74241d4c799fc1fba9d267c4de)
+        ;
+
+        
+    
+    
+            var marker_b8474ea0400547b39cdfde5d8aaacbcd = L.marker(
+                [42.34658123, -71.09756112],
+                {}
+            ).addTo(map_5f5c68a7063f4cd9a4ffd1b8b32fc013);
+        
+    
+        var popup_b861ec4f1b3141e8a25049e1e50b7a6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de7b3f83c999433ba84c5db7a0468a2b = $(`<div id="html_de7b3f83c999433ba84c5db7a0468a2b" style="width: 100.0%; height: 100.0%;">Fenway Park</div>`)[0];
+            popup_b861ec4f1b3141e8a25049e1e50b7a6b.setContent(html_de7b3f83c999433ba84c5db7a0468a2b);
+        
+
+        marker_b8474ea0400547b39cdfde5d8aaacbcd.bindPopup(popup_b861ec4f1b3141e8a25049e1e50b7a6b)
+        ;
+
+        
+    
+</script>
