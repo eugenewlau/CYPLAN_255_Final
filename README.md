@@ -105,4 +105,6 @@ The tract that the ballpark is located in doesn't appear to have increased that 
 
 ### Closing Thoughts
 
-Between 2013 and 2018, it appears that the tract where Nationals Park is located in Washington D.C. recieved the highest degree of change in median income. Though there is a possibility that the development of the park in 2008 was the genesis for such a change, D.C. has also underwent a massive amount of demographic and socio-economic change. Plans to redevelop the Navy Park neighborhood began in early 2000
+Between 2013 and 2018, it appears that the tract where Nationals Park is located in Washington D.C. recieved the highest degree of change in median income. Though there is a possibility that the development of the park in 2008 was the genesis for such a change, D.C. has also underwent a massive amount of demographic and socio-economic change. Plans to redevelop the Navy Park neighborhood began in early 2000 and is still on-going. These development plans and gentrification in D.C. could be more to explain for the change in median income levels rather than the introduction of the ballpark. 
+
+Yankee Stadium, Citi Field, Target Field, and Loan Depot Park do not share the same percent median income change in their respective neighborhoods. More work needs to be done to explore these relationships further. 
