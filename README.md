@@ -3,10 +3,13 @@
 **Authors:** Eugene Lau, CYPLAN 255
 
 ### Problem Statement
+Map Showing All Baseball Parks in US
+![Screenshot 2022-04-27 012612](https://user-images.githubusercontent.com/98058718/167568144-8f65c7d2-9036-4c75-9f85-49c48859514c.jpg)
+
 
 I am exploring potential relationships between the development of major league baseball stadiums and city level median income data using Census 5 Year ACS data. Broadly I am looking at how the arrival of baseball stadiums produce either negative or positive changes in the financial capacity of surrounding residents. Economists regularly argue that public funding for sports venues does not bring in the economic and social returns expected by taxpayer investment. This history of public investment in sports venues results in little economic benefit to the surrounding area besides to the investors in the project. Professor of Economics Victor Matheson argues that NFL stadiums in particular make poor neighbors as they generate little to no local economic benefit, bringing in residents already in the metro area, and facilities are hardly utilized beyond for the team’s benefits. A recent study suggests $33 billion public dollars in the United States went to covering a median of 73% of total construction costs over the past 30 years. These public dollars could have been tailored for essential city services like education, economic development, transportation, and parks maintenance.  
 
-Figure 1: Map Showing Subject Baseball Parks in US
+Map Showing Subject Baseball Parks in US
 ![Screenshot 2022-05-09 222233](https://user-images.githubusercontent.com/98058718/167548157-453d7c75-072b-4ea7-8196-fd5af85eb694.jpg)
 
 ### Goals
@@ -107,4 +110,4 @@ The tract that the ballpark is located in doesn't appear to have increased that 
 
 Between 2013 and 2018, it appears that the tract where Nationals Park is located in Washington D.C. recieved the highest degree of change in median income. Though there is a possibility that the development of the park in 2008 was the genesis for such a change, D.C. has also underwent a massive amount of demographic and socio-economic change. Plans to redevelop the Navy Park neighborhood began in early 2000 and is still on-going. These development plans and gentrification in D.C. could be more to explain for the change in median income levels rather than the introduction of the ballpark. 
 
-Yankee Stadium, Citi Field, Target Field, and Loan Depot Park do not share the same percent median income change in their respective neighborhoods. More work needs to be done to explore these relationships further. 
+Yankee Stadium, Citi Field, Target Field, and Loan Depot Park do not share the same percent median income change in their respective neighborhoods. Though each host city recieved a bump to median incomes between 2013-2018 in a majority of their tracts. Further research should look at other variables besides median income to explore how these stadiums impacted these cities on a neighborhood scale and if there is relevance to redevelopment schemes beyond the stadium like there was in D.C. and if public funding played a part in the financing for construction. 
