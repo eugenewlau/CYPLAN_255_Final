@@ -21,17 +21,17 @@ Note that incomplete data will not show up on the maps and the Census reports me
 ### Washington, DC
 
 #### Median Income 2013
-![dc13](https://user-images.githubusercontent.com/98058718/167562286-501d2496-bab6-4f58-9ffe-c56737dc0281.png)
+![dc13](https://user-images.githubusercontent.com/98058718/167570431-05eee5ba-8f3c-4d65-b7b7-ed4b50cd8f07.png)
+
 
 The highest concentration of wealth is located adjacent to the Georgetown neighborhood with wealthier neighborhoods located in Northwest DC.
 
 
-
 #### Median Income 2018
-![dc18](https://user-images.githubusercontent.com/98058718/167562297-bd65f6a1-f98c-4168-a66a-c6e5ffe8e0d0.png)
+![dc18](https://user-images.githubusercontent.com/98058718/167570447-c87bbdb6-cca0-4913-94af-e06c6eb7bfb2.png)
+
 
 Median incomes rose across the board in DC with a significant portion of the city. The 2013 pattern has spread across the city but the neighborhoods across the Anacostia river are still less income rich. 
-
 
 
 Percent Change, Median Income 2013-2018
@@ -66,14 +66,16 @@ There appears to be no significant difference between the rise of income where t
 ### Minneapolis
 
 #### Median Income 2013
-![mn13](https://user-images.githubusercontent.com/98058718/167562373-1464e37d-911b-463d-925c-d64c7a739ac8.png)
+![mn13](https://user-images.githubusercontent.com/98058718/167570505-7c1e7ad2-6b39-4394-99a9-43f2338d28b8.png)
+
 
 The majority of wealth is located in the Southern left edge and upper center of Minneapolois with incomes topping out around 120k.
 
 
 
 #### Median Income 2018
-![mn18](https://user-images.githubusercontent.com/98058718/167562382-4984014c-592f-4927-98fb-d4ae6279219e.png)
+![mn18](https://user-images.githubusercontent.com/98058718/167570525-d3097910-9153-4b8b-bd08-1aac108e0c22.png)
+
 
 Wealth increased through Minneaopolis in that 5-year span as top incomes reached beyond $140k.
 
@@ -88,14 +90,14 @@ The area of the ballpark recieved the least amount of median income change. Howe
 ### Miami
 
 #### Median Income 2013
-![fl13](https://user-images.githubusercontent.com/98058718/167562406-3c5c1140-5c44-41ff-96fd-5563a5ace674.png)
+![fl13](https://user-images.githubusercontent.com/98058718/167570558-76eae43a-4c03-4d01-b334-17e3d3a6bdec.png)
 
 The majority of wealth in Miami appears to be located on the lower right edge alongside the waterfront. 
 
 
 
 #### Median Income 2018
-![fl18](https://user-images.githubusercontent.com/98058718/167562413-4fce3fd8-7aac-457f-afc6-7924fc429745.png)
+![fl18](https://user-images.githubusercontent.com/98058718/167570573-783c7fb0-f6e1-4245-9286-f659de709706.png)
 
 The 2013 pattern is repeated but the smaller tracts inland tracts around the waterfront are going up in wealth. 
 
