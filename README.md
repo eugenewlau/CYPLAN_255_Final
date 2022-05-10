@@ -10,26 +10,26 @@ Figure 1: Map Showing Subject Baseball Parks in US
 ![Screenshot 2022-05-09 222233](https://user-images.githubusercontent.com/98058718/167548157-453d7c75-072b-4ea7-8196-fd5af85eb694.jpg)
 
 ### Goals
-My goal is to produce chloropleth maps for each of these baseball cities to show the changing median income levels in each of these cities. Most economists argue that investments into sports stadia do not produce economic benefits for the surrounding communities. The Census bureau started collecting 5 year ACS data in 2010. In addition the Python library I accessed - CENPY - only provided 5 Year ACS data starting in 2013. To make accurate comparison, I looked at stadiums built between slightly before and during this time span - Nationals Park in DC (2008), Yankee Stadium in NYC (2009), Citi Field in NYC (2009),Target Field in Minneapolis (2010), and Loan Depot Park in Miami (2012). 
+My goal is to produce chloropleth maps for each of these baseball cities to show the changing median income levels in each of these cities. Most economists argue that investments into sports stadia do not produce economic benefits for the surrounding communities. The Census bureau started collecting 5 year ACS data in 2010. In addition the Python library I accessed - CENPY - only provided 5 Year ACS data starting in 2013. To make accurate comparison, I looked at stadiums built between slightly before and during this time span - Nationals Park in DC (2008), Yankee Stadium in NYC (2009), Citi Field in NYC (2009),Target Field in Minneapolis (2010), and Loan Depot Park in Miami (2012). Note that incomplete data will not show up on the maps. 
 
 
 ### Washington, DC
 
 Median Income 2013
 ![dc13](https://user-images.githubusercontent.com/98058718/167562286-501d2496-bab6-4f58-9ffe-c56737dc0281.png)
-
+The highest concentration of wealth is located adjacent to the Georgetown neighborhood with wealthier neighborhoods located in Northwest DC.
 
 
 
 Median Income 2018
 ![dc18](https://user-images.githubusercontent.com/98058718/167562297-bd65f6a1-f98c-4168-a66a-c6e5ffe8e0d0.png)
-
+Median incomes rose across the board in DC with a significant portion of the city. The 2013 pattern has spread across the city but the neighborhoods across the Anacostia river are still less income rich. 
 
 
 
 Percent Change, Median Income 2013-2018
 ![dc1318](https://user-images.githubusercontent.com/98058718/167562307-ea06365e-722e-4e16-8369-804a741b54cd.png)
-
+There is a substantial percentage change in the Navy Yard neighborhood where the Nationals Park is located with similar change in median income occuring across the river in the Anacostia neighborhood.
 
 
 
@@ -37,19 +37,19 @@ Percent Change, Median Income 2013-2018
 
 Median Income 2013
 ![ny13](https://user-images.githubusercontent.com/98058718/167562321-03a55e15-a05d-4c9e-941f-cf89b7d9b60a.png)
-
+Most of the income wealth in NYC is located in Manhattan around Central Park and Midtown. 
 
 
 
 Median Income 2018
 ![ny18](https://user-images.githubusercontent.com/98058718/167562328-e1417dec-9e7e-44b3-8e41-294ee89869da.png)
-
+A majority of NYC's tracts recieved a bump in median income. 
 
 
 
 Percent Change, Median Income 2013-2018
 ![ny1318](https://user-images.githubusercontent.com/98058718/167562341-9e6ec93e-e3d8-4094-bd97-9c2bc0385b69.png)
-
+There appears to be no significant difference between the rise of income where the Yankee Stadium is located in the upper corner of NYC. The Mets stadium is located in Flushing Meadows a public park in the Queens borough so no income data is reported by the Census here. Surrounding neighborhoods don't seem to have recieved an income bumpo either just like Yankee Stadium in the Bronx. 
 
 
 
