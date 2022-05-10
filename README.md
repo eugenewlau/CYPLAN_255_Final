@@ -16,76 +16,79 @@ My goal is to produce chloropleth maps for each of these baseball cities to show
 ### Washington, DC
 
 Median Income 2013
-![dc2013](https://user-images.githubusercontent.com/98058718/167558895-a18f9de3-ca11-4507-a448-81a2351ae37d.png)
+![dc13](https://user-images.githubusercontent.com/98058718/167562286-501d2496-bab6-4f58-9ffe-c56737dc0281.png)
+
 
 
 
 Median Income 2018
-![dc2018](https://user-images.githubusercontent.com/98058718/167558927-bc4c4ee0-7154-4156-9d9f-1d61bcfac9b5.png)
+![dc18](https://user-images.githubusercontent.com/98058718/167562297-bd65f6a1-f98c-4168-a66a-c6e5ffe8e0d0.png)
+
 
 
 
 Percent Change, Median Income 2013-2018
-![dc1318](https://user-images.githubusercontent.com/98058718/167558940-4f60738c-6e34-46cb-85e5-219718e77dc3.png)
+![dc1318](https://user-images.githubusercontent.com/98058718/167562307-ea06365e-722e-4e16-8369-804a741b54cd.png)
+
 
 
 
 ### New York City
 
 Median Income 2013
-![ny2013](https://user-images.githubusercontent.com/98058718/167558963-fa8e581c-588b-4583-8bdb-712c63058516.png)
+![ny13](https://user-images.githubusercontent.com/98058718/167562321-03a55e15-a05d-4c9e-941f-cf89b7d9b60a.png)
+
 
 
 
 Median Income 2018
-![ny2018](https://user-images.githubusercontent.com/98058718/167558969-1d017ece-a1ae-4d8f-9609-d1b8cd0c1c4d.png)
+![ny18](https://user-images.githubusercontent.com/98058718/167562328-e1417dec-9e7e-44b3-8e41-294ee89869da.png)
+
 
 
 
 Percent Change, Median Income 2013-2018
-![ny1318](https://user-images.githubusercontent.com/98058718/167558958-78ca716c-133e-468b-9ad4-b499b199ebc7.png)
+![ny1318](https://user-images.githubusercontent.com/98058718/167562341-9e6ec93e-e3d8-4094-bd97-9c2bc0385b69.png)
+
 
 
 
 ### Minneapolis
 
 Median Income 2013
-![mn2013](https://user-images.githubusercontent.com/98058718/167558994-53f6dd90-c3fc-4cf9-b843-e1e02f3c536c.png)
+![mn13](https://user-images.githubusercontent.com/98058718/167562373-1464e37d-911b-463d-925c-d64c7a739ac8.png)
+
 
 
 
 Median Income 2018
-![mn2018](https://user-images.githubusercontent.com/98058718/167559012-9aa1f01a-5d7d-4938-ba68-b73ace949e2a.png)
+![mn18](https://user-images.githubusercontent.com/98058718/167562382-4984014c-592f-4927-98fb-d4ae6279219e.png)
+
 
 
 
 Percent Change, Median Income 2013-2018
-![mn1318](https://user-images.githubusercontent.com/98058718/167559023-6b0f57fd-d8c9-427f-b694-19a0e7179532.png)
+![mn1318](https://user-images.githubusercontent.com/98058718/167562395-cde7e8e0-9fa5-470e-b731-09e4d63272ad.png)
+
 
 
 ### Miami
 
 Median Income 2013
-![fl2013](https://user-images.githubusercontent.com/98058718/167559038-725348ef-bd83-4067-9209-c7be1e3a6ec5.png)
+![fl13](https://user-images.githubusercontent.com/98058718/167562406-3c5c1140-5c44-41ff-96fd-5563a5ace674.png)
+
 
 
 
 Median Income 2018
-![fl2018](https://user-images.githubusercontent.com/98058718/167559054-b9fd46a0-c93e-4917-bb3b-97e3168cc740.png)
+![fl18](https://user-images.githubusercontent.com/98058718/167562413-4fce3fd8-7aac-457f-afc6-7924fc429745.png)
+
 
 
 
 Percent Change, Median Income 2013-2018
-![fl1318](https://user-images.githubusercontent.com/98058718/167559060-295886a3-e01f-435f-8b5e-44541a495f95.png)
+![fl1318](https://user-images.githubusercontent.com/98058718/167562421-5a645ef6-708c-4e56-ae08-16d152f60803.png)
 
 
 
-### Nationwide
 
-Median Income 2013
-
-
-Median Income 2018
-
-
-Percent Change, Median Income 2013-2018
